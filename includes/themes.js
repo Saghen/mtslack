@@ -16,6 +16,7 @@ class NextThemePlugin extends window.slackPluginsAPI.pluginBase {
     // Specific
     // Theme list
     this.themes = [
+      'catppuccin',
       'oceanic',
       'darker',
       'lighter',
@@ -33,7 +34,6 @@ class NextThemePlugin extends window.slackPluginsAPI.pluginBase {
       'nightowl',
       'lightowl',
       'moonlight',
-      'catppuccin',
       'default',
     ];
     // Current theme

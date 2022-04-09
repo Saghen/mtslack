@@ -46,7 +46,7 @@ async function run() {
 // Start
 async function main() {
   clear();
-  await checkForUpdates();
+  await run()
 }
 
 async function checkForUpdates() {
